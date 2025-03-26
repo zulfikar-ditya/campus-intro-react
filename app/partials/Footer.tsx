@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -20,12 +21,12 @@ export default function Footer() {
 						</div>
 					</div>
 
-					<a
-						href="/contact"
+					<Link
+						href={"/contact"}
 						className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200 transition-colors"
 					>
 						Get in touch
-					</a>
+					</Link>
 				</div>
 
 				<div className="px-4 py-6 flex justify-between items-center">
@@ -45,9 +46,9 @@ export default function Footer() {
 								viewBox="0 0 24 24"
 								fill="none"
 								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
 								className="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
 							>
 								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -71,9 +72,9 @@ export default function Footer() {
 								viewBox="0 0 24 24"
 								fill="none"
 								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
 								className="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"
 							>
 								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -94,9 +95,9 @@ export default function Footer() {
 								viewBox="0 0 24 24"
 								fill="none"
 								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
 								className="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
 							>
 								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
