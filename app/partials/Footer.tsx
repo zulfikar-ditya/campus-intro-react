@@ -17,7 +17,7 @@ export default function Footer() {
 								width={50}
 								height={50}
 							/>
-							<p className="text-5xl ml-5">let's build it together.</p>
+							<p className="text-5xl ml-5">let`&apos;s build it together.</p>
 						</div>
 					</div>
 

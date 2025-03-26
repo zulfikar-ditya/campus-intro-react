@@ -34,7 +34,7 @@ export default function Contact() {
 				</div>
 				<div className="">
 					<h2 className="text-4xl font-bold text-slate-900">
-						Let's build something cool together
+						Let&apos;s build something cool together
 					</h2>
 
 					<form className="mt-8 space-y-6">

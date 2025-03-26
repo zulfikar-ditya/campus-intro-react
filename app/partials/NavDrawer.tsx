@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function NavDrawer() {
@@ -114,12 +115,12 @@ export default function NavDrawer() {
 								</a>
 							</li>
 							<li className="hover:list-disc my-4">
-								<a
-									href="#"
+								<Link
+									href={"/contact"}
 									className="block text-slate-200 hover:text-slate-10 text-3xl"
 								>
 									Contact
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</nav>

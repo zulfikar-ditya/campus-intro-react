@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function TestimonialItem({
@@ -16,9 +17,11 @@ export default function TestimonialItem({
 			<p className="text-slate-600 text-2xl">{quote}</p>
 			<div className="flex mt-4">
 				<div className="">
-					<img
+					<Image
 						src={imagePath}
 						alt="Avatar"
+						width={120}
+						height={120}
 						className="h-12 w-12 rounded-full"
 					/>
 				</div>
